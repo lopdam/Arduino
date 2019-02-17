@@ -24,7 +24,7 @@ digitalWrite(trigger,LOW);//Apagamos 4 micros el trigger para evitar errores
 delayMicroseconds(4);
 digitalWrite(trigger,HIGH);//Encendemos el trigger por 10 micros
 delayMicroseconds(10);
-digitalWrite(trigger,LOW);
+
 
 time=pulseIn(echo,HIGH);//Capturamos el tiempo de la onda
 
