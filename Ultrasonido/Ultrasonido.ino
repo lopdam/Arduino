@@ -32,7 +32,7 @@ time=pulseIn(echo,HIGH);//Capturamos el tiempo de la onda
 
 distancia=(time/2)*velocidad;//Calculamos la distancia del objeto
 
-// Mostramos por consola los valores
+// Mostramos por consola los valores obtenidos
 Serial.print("Distancia: ");
 Serial.print(distancia);
 Serial.println(" cm");
