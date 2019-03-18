@@ -5,7 +5,7 @@ Las carpetas muestran la configuracion inicial de los diferentes componentes
 
 [Instagram](http://instagram.com/lopdam.ec)
 
-# Hola Mundo
+## Hola Mundo
 ```c++
 //lopdam
 
@@ -33,7 +33,7 @@ delay(tim);
 }
 
 ```
-# Button Rebote
+## Button Rebote
 ```c++
 //lopdam
 // Practica de encendido con un Btn considerando el Rebote
