@@ -105,6 +105,8 @@ else{
 
 ## Led RGB
 
+Con el led RGB podemos crear una cantidad considerable de colores, ya que podemos combinar los colore primarios (Rojo)(Verde)(Azul) para optener el color deseado, la forma en la cual lo hacemos es utilizando las salidas pwm en las cuales podemos modular el ancho de pulso, que vendria a ser una salida analogica de 8 bits y que tomaria 256 valores posible 0-255, esto permite regular la intensidad de cada color.
+
 ```c++
 //lopdam
 
@@ -147,6 +149,9 @@ void loop(){
 ![LedRGB](/LedRGB/LedRGB.png)
 
 ## Semaforo 
+
+La practica del semaforo es muy sencilla ya que solo se usan salidas digitales para poder realizar este proyecto,tambien se debe usar un retardo (delay()) para poder controlar el tiempo en que toma en cambiar de un color a otro. 
+
 ```c++
 //lopdam
 
@@ -236,6 +241,24 @@ void loop() {
 ![LedsSecuencia](/SecuenciaLeds/SecuenciaLeds.png)
 
 ## Servo Motor
+Para esta practica se va a usar un servo y un potencimetro.
+
+Para usar el Servo se necesita incluir la libreria Servo.h ya que esta contiene los metodos necesarios para poder controlar el servo, en esta caso solo se va a usar dos metodos attach() y write(), attach()  este metodo define el pin que se va a usar para el control, write() con este metodo se puede controlar la poscision del servo esta funcion recibe valores de 0-180 que vendrian a ser los grados de inclinacion de la pala del servo.
+
+El potenciometro se va a usar para poder controlar el servo, de tal modo que vendria a ser un entrada analogica que toma 1024 valores 0-1023.
+
+Tambien se tiene que tomar en cuenta que hay que hacer las transformaciones en equivalencias respectivas 0-1023 a 0-180, esto lo logramos usando el metodo map() que recibe 5 valores map(value, fromLow, fromHigh, toLow, toHigh).
+
+value: el número a mapear
+
+fromLow: el límite inferior del rango actual del valor
+
+fromHigh: el límite superior del rango actual del valor
+
+toLow: el límite inferior del rango objetivo del valor
+
+toHigh: el límite superior del rango objetivo del valor
+
 ```c++
 //lopdam
 // Vamos a hacer funcionar un servo motor con un potenciometro
