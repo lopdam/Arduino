@@ -846,4 +846,4 @@ void FunObs(){
       return distanciaEntrada= int(0.017*tiempoEntrada); // Fórmula para calcular la distancia en cm
   }
 ```
-![CarBluetooth](/CarBluetooth/CarDesing.jpg)
+![CarBluetooth](/CarBluetooth/CarDesing.png)
