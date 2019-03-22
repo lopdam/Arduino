@@ -7,10 +7,15 @@ Las carpetas muestran cada proyecto, algunas definen la configuracion inicial de
 
 [Telegram](https://t.me/lopdam)
 
+
 ## Arduino, Qué es ?
 Arduino es una plataforma de creación de hardware y software libre, la cual nos permite materializar nuestras ideas ya que es flexible y fácil de usar, porque posee una capa de abstracción lo que la hace ideal para makers, desarrolladores y entusiastas al mudo de la tecnología, los cuales no deben tener conocimietos profundos sobre electronica para comenzar a realizar sus proyectos.
 
-## Hola Mundo
+# Contenido
+[Hola Mundo](#Hola)
+
+## Hola Mundo ##
+
 El Hola Mundo en Arduino es básicamente encender y apagar el led que ya viene incoporado en el pin #13.
 Para eso vamos a definir dos variables, una para declara el pin #13 y otra para definir el tiempo que va a permanecer encendido y apagado el led.
 También se procederá a definir en el método setup() el modo del pin en este caso OUTPUT.
