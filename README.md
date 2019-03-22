@@ -198,7 +198,7 @@ delay(tim);
 
 ## Secuencia de Leds
 
-Para poder realizar una secuencia de leds correcta se va a utilizar una estructura de contro for() con la cual podremos definir el modo de los pines sin tener que hacerlo uno por uno, lo mismo hacemos para el encendido y apagado.
+Para poder realizar una secuencia de leds correcta se va a utilizar la estructura de contro for() con la cual podremos definir el modo de los pines sin tener que hacerlo uno por uno, lo mismo hacemos para el encendido y apagado.
 
 ```c++
 
@@ -457,6 +457,9 @@ else{
 ![SensorPIR](/SensorPIR/SendorPIR.png)
 
 ## Modulo Bluetooth
+
+Vamos a configura un modulo Bluetooth con comandos AT.
+
 ```c++
 //lopdam
 // Configuracion de modulo Bluetooth
