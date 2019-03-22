@@ -13,18 +13,26 @@ Arduino es una plataforma de creación de hardware y software libre, la cual nos
 
 # Contenido
 [Hola Mundo](#Hola Mundo)
+
 [Button Rebote](#Button Rebote)
+
 [Led RGB](#Led RGB)
+
 [Semaforo](#Semaforo)
+
 [Secuencia de Leds](#Secuencia de Leds)
+
 [Servo Motor](#Servo Motor)
+
 [Motor Reductor](#Motor Reductor)
+
 [UltraSonido](#UltraSonido)
+
 [Sensor PIR](#Sensor PIR)
+
 [Modulo Bluetooth](#Modulo Bluetooth)
+
 [Car Bluetooth](#Car Bluetooth)
-
-
 
 
 ## Hola Mundo ##
