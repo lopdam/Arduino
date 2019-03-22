@@ -1,7 +1,7 @@
 # Arduino
 Proyectos realizados utilizando la plataforma de Arduino.
 
-Las carpetas muestran la configuracion inicial de los diferentes componentes
+Las carpetas muestran cada proyecto, algunas definen la configuracion inicial de los diferentes componentes.
 
 [Instagram](http://instagram.com/lopdam.ec)
 
