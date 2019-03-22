@@ -5,6 +5,8 @@ Las carpetas muestran la configuracion inicial de los diferentes componentes
 
 [Instagram](http://instagram.com/lopdam.ec)
 
+[Telegram](https://t.me/lopdam)
+
 ## Arduino, Qué es ?
 Arduino es una plataforma de creación de hardware y software libre, la cual nos permite materializar nuestras ideas ya que es flexible y fácil de usar, porque posee una capa de abstracción lo que la hace ideal para makers, desarrolladores y entusiastas al mudo de la tecnología, los cuales no deben tener conocimietos profundos sobre electronica para comenzar a realizar sus proyectos.
 
