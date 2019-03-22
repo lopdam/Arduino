@@ -5,7 +5,15 @@ Las carpetas muestran la configuracion inicial de los diferentes componentes
 
 [Instagram](http://instagram.com/lopdam.ec)
 
+## Arduino, Qué es ?
+Arduino es una plataforma de creación de hardware y software libre, la cual nos permite materializar nuestras ideas ya que es flexible y fácil de usar, porque posee una capa de abstracción lo que la hace ideal para creadores, desarrolladores y entusiastas al mudo de la tecnología.
+
 ## Hola Mundo
+El Hola Mundo en Arduino es básicamente encender y apagar el led que ya viene incoporado en el pin #13.
+Para eso vamos a definir dos variables, una para declara el pin #13 y otra para definir el tiempo que va a permanecer encendido y apagado el led.
+También se procederá a definir en el método setup() el modo del pin en este caso OUTPUT.
+Y al final se va a  implementar las acciones en el método loop().
+
 ```c++
 //lopdam
 
@@ -89,4 +97,48 @@ else{
 
 ```
 ![Arduino](/BtnRebote/BtnRebote.png)
+
+
+## Led RGB
+
+```c++
+//lopdam
+
+//Encender un led RGB combinando los colores
+//El color va a ser generado aleatoriamente
+
+//Declaramos lo pines a usar
+
+const int red=3;
+const int green=5;
+const int blue=6;
+
+const int tiempo=500;//Una variable tiempo para el cambio de color
+
+void setup()
+{
+  // Definimos el modo de los leds
+  pinMode(red, OUTPUT);
+   pinMode(green, OUTPUT);
+   pinMode(blue, OUTPUT);
+}
+
+void loop(){
+
+// Generamos los colores
+  int i=random(0,256);
+  int k=random(0,256);
+  int j=random(0,256);
+
+// Encendemos los leds
+
+  analogWrite(red,i);
+  analogWrite(green,j);
+  analogWrite(blue,k);
+  delay(tiempo);
+
+}
+```
+
+![LedRGB](/LedRGB/LedRGB.png)
 
