@@ -6,7 +6,7 @@ Las carpetas muestran la configuracion inicial de los diferentes componentes
 [Instagram](http://instagram.com/lopdam.ec)
 
 ## Arduino, Qué es ?
-Arduino es una plataforma de creación de hardware y software libre, la cual nos permite materializar nuestras ideas ya que es flexible y fácil de usar, porque posee una capa de abstracción lo que la hace ideal para creadores, desarrolladores y entusiastas al mudo de la tecnología.
+Arduino es una plataforma de creación de hardware y software libre, la cual nos permite materializar nuestras ideas ya que es flexible y fácil de usar, porque posee una capa de abstracción lo que la hace ideal para makers, desarrolladores y entusiastas al mudo de la tecnología, los cuales no deben tener conocimietos profundos sobre electronica para comenzar a realizar sus proyectos.
 
 ## Hola Mundo
 El Hola Mundo en Arduino es básicamente encender y apagar el led que ya viene incoporado en el pin #13.
@@ -42,6 +42,8 @@ delay(tim);
 
 ```
 ## Button Rebote
+Para realizar una correcta lectura de un Button(pulsador) hay que tener en cuenta que existe el rebote del Button, esto consciste en que al pulsar, las laminas internas vibran varias veces antes de llegar a la posicion de estado cerrado, lo cual puede llevar errores en lectura ya que el Arduino trabaja a altas velocidades y puede tomar la lectura como un alto o como un bajo.
+
 ```c++
 //lopdam
 // Practica de encendido con un Btn considerando el Rebote
@@ -378,11 +380,12 @@ Serial.println(" cm");
 
 
 }
-
 ```
+
 ![UltraSonido](/Ultrasonido/ultrasonic.png)
 
 ## Sensor PIR
+
 ```c++
 //lopdam
 
