@@ -561,6 +561,9 @@ void loop()
 ![BLuetooth](/ModuloBluetooth/Bluetooth.png)
 
 ## Car Bluetooth
+Este proyecto es un carro controlado mediante una Bluetooth.
+El apk se encuentra en la carpeta del proyecto.
+
 ```c++
 #include <SoftwareSerial.h>
 
