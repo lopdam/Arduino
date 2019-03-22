@@ -12,27 +12,27 @@ Las carpetas muestran cada proyecto, algunas definen la configuracion inicial de
 Arduino es una plataforma de creación de hardware y software libre, la cual nos permite materializar nuestras ideas ya que es flexible y fácil de usar, porque posee una capa de abstracción lo que la hace ideal para makers, desarrolladores y entusiastas al mudo de la tecnología, los cuales no deben tener conocimietos profundos sobre electronica para comenzar a realizar sus proyectos.
 
 # Contenido
-[Hola Mundo](#Hola Mundo)
+[Hola Mundo](#HolaMundo)
 
-[Button Rebote](#Button Rebote)
+[Button Rebote](#ButtonRebote)
 
-[Led RGB](#Led RGB)
+[Led RGB](#LedRGB)
 
 [Semaforo](#Semaforo)
 
-[Secuencia de Leds](#Secuencia de Leds)
+[Secuencia de Leds](#SecuenciadeLeds)
 
-[Servo Motor](#Servo Motor)
+[Servo Motor](#ServoMotor)
 
-[Motor Reductor](#Motor Reductor)
+[Motor Reductor](#MotorReductor)
 
 [UltraSonido](#UltraSonido)
 
-[Sensor PIR](#Sensor PIR)
+[Sensor PIR](#SensorPIR)
 
-[Modulo Bluetooth](#Modulo Bluetooth)
+[Modulo Bluetooth](#ModuloBluetooth)
 
-[Car Bluetooth](#Car Bluetooth)
+[Car Bluetooth](#CarBluetooth)
 
 
 ## Hola Mundo ##
