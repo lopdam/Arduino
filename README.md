@@ -197,6 +197,9 @@ delay(tim);
 ![](/Semaforo/semaforo.png)
 
 ## Secuencia de Leds
+
+Para poder realizar una secuencia de leds correcta se va a utilizar una estructura de contro for() con la cual podremos definir el modo de los pines sin tener que hacerlo uno por uno, lo mismo hacemos para el encendido y apagado.
+
 ```c++
 
 //lopdam
