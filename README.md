@@ -12,7 +12,20 @@ Las carpetas muestran cada proyecto, algunas definen la configuracion inicial de
 Arduino es una plataforma de creación de hardware y software libre, la cual nos permite materializar nuestras ideas ya que es flexible y fácil de usar, porque posee una capa de abstracción lo que la hace ideal para makers, desarrolladores y entusiastas al mudo de la tecnología, los cuales no deben tener conocimietos profundos sobre electronica para comenzar a realizar sus proyectos.
 
 # Contenido
-[Hola Mundo](#Hola)
+[Hola Mundo](#Hola Mundo)
+[Button Rebote](#Button Rebote)
+[Led RGB](#Led RGB)
+[Semaforo](#Semaforo)
+[Secuencia de Leds](#Secuencia de Leds)
+[Servo Motor](#Servo Motor)
+[Motor Reductor](#Motor Reductor)
+[UltraSonido](#UltraSonido)
+[Sensor PIR](#Sensor PIR)
+[Modulo Bluetooth](#Modulo Bluetooth)
+[Car Bluetooth](#Car Bluetooth)
+
+
+
 
 ## Hola Mundo ##
 
@@ -48,7 +61,7 @@ delay(tim);
 }
 
 ```
-## Button Rebote
+## Button Rebote ##
 Para realizar una correcta lectura de un Button(pulsador) hay que tener en cuenta que existe el rebote del Button, esto consciste en que al pulsar, las laminas internas vibran varias veces antes de llegar a la posicion de estado cerrado, lo cual puede llevar errores en lectura ya que el Arduino trabaja a altas velocidades y puede tomar la lectura como un alto o como un bajo.
 
 ```c++
@@ -108,7 +121,7 @@ else{
 ![Arduino](/BtnRebote/BtnRebote.png)
 
 
-## Led RGB
+## Led RGB ##
 
 Con el led RGB podemos crear una cantidad considerable de colores, ya que podemos combinar los colore primarios (Rojo)(Verde)(Azul) para optener el color deseado, la forma en la cual lo hacemos es utilizando las salidas pwm en las cuales podemos modular el ancho de pulso, que vendria a ser una salida analogica de 8 bits y que tomaria 256 valores posible 0-255, esto permite regular la intensidad de cada color.
 
@@ -153,7 +166,7 @@ void loop(){
 
 ![LedRGB](/LedRGB/LedRGB.png)
 
-## Semaforo 
+## Semaforo ##
 
 La practica del semaforo es muy sencilla ya que solo se usan salidas digitales para poder realizar este proyecto,tambien se debe usar un retardo (delay()) para poder controlar el tiempo en que toma en cambiar de un color a otro. 
 
@@ -201,7 +214,7 @@ delay(tim);
 ```
 ![](/Semaforo/semaforo.png)
 
-## Secuencia de Leds
+## Secuencia de Leds ##
 
 Para poder realizar una secuencia de leds correcta se va a utilizar la estructura de contro for() con la cual podremos definir el modo de los pines sin tener que hacerlo uno por uno, lo mismo hacemos para el encendido y apagado.
 
@@ -248,7 +261,8 @@ void loop() {
 ```
 ![LedsSecuencia](/SecuenciaLeds/SecuenciaLeds.png)
 
-## Servo Motor
+## Servo Motor ##
+
 Para esta practica se va a usar un servo y un potencimetro.
 
 Para usar el Servo se necesita incluir la libreria Servo.h ya que esta contiene los metodos necesarios para poder controlar el servo, en esta caso solo se va a usar dos metodos attach() y write(), attach()  este metodo define el pin que se va a usar para el control, write() con este metodo se puede controlar la poscision del servo esta funcion recibe valores de 0-180 que vendrian a ser los grados de inclinacion de la pala del servo.
@@ -302,7 +316,7 @@ Serial.println(grados);
 ```
 ![Servo](/ServoMotor/ServoMotor.png)
 
-## Motor Reductor
+## Motor Reductor ##
 ```c++
 //lopdam
 // Uso del motor Reductor
@@ -371,7 +385,7 @@ void Detener(){
 ```
 ![MotorReductor](/MotorReductor/MotorReductor.png)
 
-## UltraSonido
+## UltraSonido ##
 ```c++
 // lopdam
 // Usar el sensor de Ultrasonido HC-SR04
@@ -418,7 +432,7 @@ Serial.println(" cm");
 
 ![UltraSonido](/Ultrasonido/ultrasonic.png)
 
-## Sensor PIR
+## Sensor PIR ##
 
 ```c++
 //lopdam
@@ -461,7 +475,7 @@ else{
 ```
 ![SensorPIR](/SensorPIR/SendorPIR.png)
 
-## Modulo Bluetooth
+## Modulo Bluetooth ##
 
 Vamos a configura un modulo Bluetooth con comandos AT.
 
