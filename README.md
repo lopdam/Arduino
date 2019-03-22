@@ -339,7 +339,8 @@ void Detener(){
 ![MotorReductor](/MotorReductor/MotorReductor.png)
 
 ## UltraSonido
-```c++// lopdam
+```c++
+// lopdam
 // Usar el sensor de Ultrasonido HC-SR04
 
 // Declaramos los pines a usar del Arduino
